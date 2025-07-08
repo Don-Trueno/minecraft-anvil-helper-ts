@@ -2,12 +2,12 @@
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import dataJE from './dataJE.json'
-import dataBE from './dataBE.json'
+import dataJE from './utils/dataJE.json'
+import dataBE from './utils/dataBE.json'
 
-import { Enchantment, Item, type Settings, getInfo } from './data'
-import { mergeItem } from './work'
-import { solveAllCombinations } from './solve'
+import { Enchantment, Item, type Settings, getInfo } from './utils/data'
+import { mergeItem } from './utils/work'
+import { solveAllCombinations } from './utils/solve'
 
 // i18n
 const { t } = useI18n()
@@ -89,7 +89,7 @@ function solve(input: Item[], settings: Settings) {
   <div>
     {{ currentItemType }}
     <div v-for="item in input">
-      <select v-model="item.type" @change="itemTypeUpdate(item)">
+      <select v-model="item.type" @change="() => itemTypeUpdate(item)">
         <option disabled value="">{{ t('chooseOne') }}</option>
         <option :value="itemTypes" v-for="itemTypes in currentAvailableItemTypes">
           {{ t(itemTypes) }}
@@ -98,7 +98,7 @@ function solve(input: Item[], settings: Settings) {
       </select>
       <br />
       <div v-for="ench in item.enchantments">
-        <select v-model="ench.id" @change="enchantmentIdUpdate(ench)">
+        <select v-model="ench.id" @change="() => enchantmentIdUpdate(ench)">
           <option disabled value="">{{ t('chooseOne') }}</option>
           <option
             :value="e"
@@ -117,15 +117,15 @@ function solve(input: Item[], settings: Settings) {
         :disabled="
           item.enchantments.length === getAllEnchantments(currentItemType, settings).length
         "
-        @click="addNewEnchantment(item)"
+        @click="() => addNewEnchantment(item)"
       >
         {{ t('addEnchantment') }}
       </button>
       <hr />
     </div>
-    <button @click="addNewItem()">{{ t('addItem') }}</button>
+    <button @click="() => addNewItem()">{{ t('addItem') }}</button>
     <hr />
   </div>
-  <button @click="solve(input, settings)">{{ t('solve') }}</button>
+  <button @click="() => solve(input, settings)">{{ t('solve') }}</button>
   {{ result }}
 </template>
