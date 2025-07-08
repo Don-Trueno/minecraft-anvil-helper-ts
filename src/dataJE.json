@@ -1,0 +1,407 @@
+{
+  "desc": "",
+  "item": [
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots",
+    "sword",
+    "axe",
+    "mace",
+    "bow",
+    "crossbow",
+    "pickaxe",
+    "shovel",
+    "hoe",
+    "shears",
+    "trident",
+    "fishing_rod",
+    "elytra",
+    "shield",
+    "brush",
+    "flint_and_steel",
+    "carrot_on_a_stick",
+    "warped_fungus_on_a_stick",
+    "carved_pumpkin",
+    "compass",
+    "heads"
+  ],
+  "data": {
+    "protection": {
+      "maxLevel": 4,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": ["blast_protection", "fire_protection", "projectile_protection"]
+    },
+    "fire_protection": {
+      "maxLevel": 4,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": ["blast_protection", "projectile_protection", "protection"]
+    },
+    "feather_falling": {
+      "maxLevel": 4,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": []
+    },
+    "blast_protection": {
+      "maxLevel": 4,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": ["fire_protection", "projectile_protection", "protection"]
+    },
+    "projectile_protection": {
+      "maxLevel": 4,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": ["blast_protection", "fire_protection", "protection"]
+    },
+    "thorn": {
+      "maxLevel": 3,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "incompatibleEnchantments": []
+    },
+    "respiration": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "helmet"],
+      "incompatibleEnchantments": []
+    },
+    "depth_strider": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "boots"],
+      "incompatibleEnchantments": ["frost_walker"]
+    },
+    "aqua_affinity": {
+      "maxLevel": 1,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "helmet"],
+      "incompatibleEnchantments": []
+    },
+    "sharpness": {
+      "maxLevel": 5,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "sword", "axe"],
+      "incompatibleEnchantments": ["bane_of_arthropods", "smite", "density", "breach"]
+    },
+    "smite": {
+      "maxLevel": 5,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "sword", "axe", "mace"],
+      "incompatibleEnchantments": ["sharpness", "bane_of_arthropods", "density", "breach"]
+    },
+    "bane_of_arthropods": {
+      "maxLevel": 5,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "sword", "axe", "mace"],
+      "incompatibleEnchantments": ["sharpness", "smite", "density", "breach"]
+    },
+    "knockback": {
+      "maxLevel": 2,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "sword"],
+      "incompatibleEnchantments": []
+    },
+    "fire_aspect": {
+      "maxLevel": 2,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "sword", "mace"],
+      "incompatibleEnchantments": []
+    },
+    "looting": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "sword"],
+      "incompatibleEnchantments": []
+    },
+    "efficiency": {
+      "maxLevel": 5,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "pickaxe", "axe", "shovel", "hoe", "shears"],
+      "incompatibleEnchantments": []
+    },
+    "silk_touch": {
+      "maxLevel": 1,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "pickaxe", "axe", "shovel", "hoe"],
+      "incompatibleEnchantments": ["fortune"]
+    },
+
+    "unbreaking": {
+      "maxLevel": 3,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": [
+        "enchanted_book",
+        "pickaxe",
+        "shovel",
+        "axe",
+        "fishing_rod",
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "sword",
+        "bow",
+        "hoe",
+        "shears",
+        "flint_and_steel",
+        "brush",
+        "carrot_on_a_stick",
+        "warped_fungus_on_a_stick",
+        "shield",
+        "trident",
+        "elytra",
+        "crossbow",
+        "mace"
+      ],
+      "incompatibleEnchantments": []
+    },
+    "fortune": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "pickaxe", "axe", "shovel", "hoe"],
+      "incompatibleEnchantments": ["silk_touch"]
+    },
+    "power": {
+      "maxLevel": 5,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "bow"],
+      "incompatibleEnchantments": []
+    },
+    "punch": {
+      "maxLevel": 2,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "bow"],
+      "incompatibleEnchantments": []
+    },
+    "flame": {
+      "maxLevel": 1,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "bow"],
+      "incompatibleEnchantments": []
+    },
+    "infinity": {
+      "maxLevel": 1,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "bow"],
+      "incompatibleEnchantments": ["mending"]
+    },
+    "luck_of_the_sea": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "fishing_rod"],
+      "incompatibleEnchantments": []
+    },
+    "lure": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "fishing_rod"],
+      "incompatibleEnchantments": []
+    },
+    "froze_walker": {
+      "maxLevel": 2,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "boots"],
+      "incompatibleEnchantments": ["depth_strider"]
+    },
+    "mending": {
+      "maxLevel": 1,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": [
+        "enchanted_book",
+        "pickaxe",
+        "shovel",
+        "axe",
+        "fishing_rod",
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "sword",
+        "bow",
+        "hoe",
+        "shears",
+        "flint_and_steel",
+        "brush",
+        "carrot_on_a_stick",
+        "warped_fungus_on_a_stick",
+        "shield",
+        "trident",
+        "elytra",
+        "crossbow",
+        "mace"
+      ],
+      "incompatibleEnchantments": ["infinity"]
+    },
+    "curse_of_binding": {
+      "maxLevel": 1,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": [
+        "enchanted_book",
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "elytra",
+        "carved_pumpkin",
+        "heads"
+      ],
+      "incompatibleEnchantments": []
+    },
+    "curse_of_vanishing": {
+      "maxLevel": 1,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": [
+        "enchanted_book",
+        "pickaxe",
+        "shovel",
+        "axe",
+        "fishing_rod",
+        "helmet",
+        "chestplate",
+        "leggings",
+        "boots",
+        "sword",
+        "bow",
+        "hoe",
+        "shears",
+        "flint_and_steel",
+        "brush",
+        "carrot_on_a_stick",
+        "warped_fungus_on_a_stick",
+        "shield",
+        "trident",
+        "elytra",
+        "crossbow",
+        "mace",
+        "carved_pumpkin",
+        "heads",
+        "compass"
+      ],
+      "incompatibleEnchantments": []
+    },
+    "impaling": {
+      "maxLevel": 5,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "trident"],
+      "incompatibleEnchantments": []
+    },
+    "riptide": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "trident"],
+      "incompatibleEnchantments": ["channeling", "loyalty"]
+    },
+    "loyalty": {
+      "maxLevel": 3,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "trident"],
+      "incompatibleEnchantments": ["channeling", "riptide"]
+    },
+    "channeling": {
+      "maxLevel": 3,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "trident"],
+      "incompatibleEnchantments": ["loyalty", "riptide"]
+    },
+    "multishot": {
+      "maxLevel": 1,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "crossbow"],
+      "incompatibleEnchantments": ["piercing"]
+    },
+    "piercing": {
+      "maxLevel": 4,
+      "weightFromItem": 1,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "crossbow"],
+      "incompatibleEnchantments": ["multishot"]
+    },
+    "quick_charge": {
+      "maxLevel": 3,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "crossbow"],
+      "incompatibleEnchantments": []
+    },
+    "soul_speed": {
+      "maxLevel": 3,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "boots"],
+      "incompatibleEnchantments": []
+    },
+    "swift_sneak": {
+      "maxLevel": 3,
+      "weightFromItem": 8,
+      "weightFromBook": 4,
+      "compatibleItems": ["enchanted_book", "leggings"],
+      "incompatibleEnchantments": []
+    },
+    "wind_burst": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "mace"],
+      "incompatibleEnchantments": []
+    },
+    "density": {
+      "maxLevel": 5,
+      "weightFromItem": 2,
+      "weightFromBook": 1,
+      "compatibleItems": ["enchanted_book", "mace"],
+      "incompatibleEnchantments": ["sharpness", "smite", "bane_of_arthropods", "breach"]
+    },
+    "breach": {
+      "maxLevel": 4,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "mace"],
+      "incompatibleEnchantments": ["sharpness", "smite", "bane_of_arthropods", "density"]
+    },
+    "sweeping_edge": {
+      "maxLevel": 3,
+      "weightFromItem": 4,
+      "weightFromBook": 2,
+      "compatibleItems": ["enchanted_book", "sword"],
+      "incompatibleEnchantments": []
+    }
+  }
+}
