@@ -47,7 +47,7 @@
       "maxLevel": 4,
       "weightFromItem": 2,
       "weightFromBook": 1,
-      "compatibleItems": ["enchanted_book", "helmet", "chestplate", "leggings", "boots"],
+      "compatibleItems": ["enchanted_book", "boots"],
       "incompatibleEnchantments": []
     },
     "blast_protection": {
