@@ -20,7 +20,5 @@ const i18n = createI18n({
   },
 })
 
-const localeType = ['en', 'zh', 'zh-CN', 'zh-TW']
-
 app.use(i18n)
 app.mount('#app')
